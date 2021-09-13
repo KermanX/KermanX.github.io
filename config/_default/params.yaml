@@ -1,6 +1,6 @@
 mainSections:
   - posts
-description: Eureka is a elegant and powerful theme for Hugo.
+description: _Kerman's website
 
 repoEditURL:
 
@@ -14,7 +14,7 @@ colorScheme:
 # E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
 siteType: Person
 icon: images/icon.png
-publisherName: C. Wang
+publisherName: _Kerman
 publisherLogo:
 
 highlight:

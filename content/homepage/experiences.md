@@ -1,30 +1,26 @@
 ---
-title: Experiences
+title: 经历
 draft: false
 experiences:
-  - title: Example Role 1
+  - title: Developer
     organization:
-      name: Example Organization 1
-      url: https://example.org
+      name: UniCoder Group
+      url: https://UniCoderGroup.github.io
     dates: '2019 - Present'
-    location: Country
-    writeup: >
-      Donec scelerisque egestas augue at tempor. Fusce faucibus magna in.
-
-      - Suspendisse lacinia mauris a laoreet vehicula.
-
-      - Aenean tincidunt enim vitae ante blandit tempor.
-
-      - Nam tincidunt diam quis lorem rutrum ullamcorper.
-      
-  - title: Example Role 2
+  - title: Student
     organization:
-      name: Example Organization 2
-      url: https://example.org
-    dates: '2017 - 2019'
-    location: Country
-    writeup: >
-      **Aliquam** at **rutrum** ante. In sed quam faucibus.
+      name: 宁波市镇海蛟川书院2019级4班
+      url: https://jc1904.gitee.io
+    dates: '2020 - Present'
+  - title: Student
+    organization:
+      name: 杭州学军中学教育集团文渊中学2019级3班
+      url: https://wy1903.gitee.io
+    dates: '2019 - 2020'
+  - title: Student
+    organization:
+      name: 丽水市莲都区中山小学2013级1班
+    dates: '2013 - 2019'
 
 weight: 3
 widget:
