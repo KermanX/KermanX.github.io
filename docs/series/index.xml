@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on _Kerman&#39;s website</title>
-    <link>/series/</link>
+    <link>https://KermanX.github.io/series/</link>
     <description>Recent content in Series on _Kerman&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy; 2021 _Kerman
-</copyright><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="https://KermanX.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>_Kerman on _Kerman&#39;s website</title>
-    <link>/authors/_kerman/</link>
+    <link>https://KermanX.github.io/authors/_kerman/</link>
     <description>Recent content in _Kerman on _Kerman&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy; 2021 _Kerman
 </copyright>
-    <lastBuildDate>Mon, 13 Sep 2021 13:53:12 +0800</lastBuildDate><atom:link href="/authors/_kerman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 13:53:12 +0800</lastBuildDate><atom:link href="https://KermanX.github.io/authors/_kerman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raychess</title>
-      <link>/posts/raychess/</link>
+      <link>https://KermanX.github.io/posts/raychess/</link>
       <pubDate>Mon, 13 Sep 2021 13:53:12 +0800</pubDate>
       
-      <guid>/posts/raychess/</guid>
+      <guid>https://KermanX.github.io/posts/raychess/</guid>
       <description>RayChess RayChess是一款全球独一无二的纸上+线上游戏 开发团队： UniCoder Group Repository Gitee .osc_pro_color {color: #4183c4 !important;} .osc_panel_color {background-color: #dcebf5 !important;} .osc_background_color {background-color: #ffffff !important;} .osc_border_color {border-color: #e3e9ed !important;} .osc_desc_color {color: #666666 !important;} .osc_link_color * {color: #9b9b9b !important;} Github UniCoderGroup/RayChess</description>
     </item>
     
