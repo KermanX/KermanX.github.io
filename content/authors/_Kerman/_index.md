@@ -8,7 +8,7 @@ organization:
 social:
   - icon: envelope
     iconPack: fas
-    url: mailto:KermanX@foxmail.com
+    url: mailto:KermanX@qq.com
 ---
 
 ## Self Introduction
