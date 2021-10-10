@@ -11,11 +11,15 @@ draft: false
 
 # RayChess
 
-**RayChess是一款全球独一无二的纸上+线上游戏**
+**RayChess是一款全球独一无二的【纸上】模拟器**
 
-开发团队： *UniCoder Group*
+还在开发中，[效果预览](https://unicodergroup.gitee.io/raychess-webapp/)
+
+了解更多：[README.md](https://gitee.com/UniCoderGroup/raychess/blob/master/README.md)
 
 ## Repository
+
+为了证明我们真的还在开发，特放出以下链接：
 
 ### Gitee
 
@@ -33,3 +37,4 @@ draft: false
 ### Github
 
 [UniCoderGroup/RayChess](https://github.com/UniCoderGroup/RayChess)
+
