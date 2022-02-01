@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iframe/ucon-roadmap/static/css/main.7176885d.chunk.css",
+    "main.js": "/iframe/ucon-roadmap/static/js/main.df30a7f9.chunk.js",
+    "main.js.map": "/iframe/ucon-roadmap/static/js/main.df30a7f9.chunk.js.map",
+    "runtime-main.js": "/iframe/ucon-roadmap/static/js/runtime-main.5d7b8fce.js",
+    "runtime-main.js.map": "/iframe/ucon-roadmap/static/js/runtime-main.5d7b8fce.js.map",
+    "static/js/2.629f53ec.chunk.js": "/iframe/ucon-roadmap/static/js/2.629f53ec.chunk.js",
+    "static/js/2.629f53ec.chunk.js.map": "/iframe/ucon-roadmap/static/js/2.629f53ec.chunk.js.map",
+    "index.html": "/iframe/ucon-roadmap/index.html",
+    "static/css/main.7176885d.chunk.css.map": "/iframe/ucon-roadmap/static/css/main.7176885d.chunk.css.map",
+    "static/js/2.629f53ec.chunk.js.LICENSE.txt": "/iframe/ucon-roadmap/static/js/2.629f53ec.chunk.js.LICENSE.txt",
+    "static/media/AppCode.ec029392.png": "/iframe/ucon-roadmap/static/media/AppCode.ec029392.png",
+    "static/media/AppOpt.5ea2ef25.png": "/iframe/ucon-roadmap/static/media/AppOpt.5ea2ef25.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d7b8fce.js",
+    "static/js/2.629f53ec.chunk.js",
+    "static/css/main.7176885d.chunk.css",
+    "static/js/main.df30a7f9.chunk.js"
+  ]
+}
