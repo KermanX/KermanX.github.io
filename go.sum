@@ -1,3 +1,5 @@
 github.com/wangchucheng/hugo-eureka v0.8.2/go.mod h1:8fuhz1HycADO6Unr+AUo27AKcEB78IsrxIRQqTQeYHY=
 github.com/wangchucheng/hugo-eureka v0.8.4 h1:roSJPYee9oEClWAPTpPQFtqe7m39st7PaQiI8ld/fGk=
 github.com/wangchucheng/hugo-eureka v0.8.4/go.mod h1:8fuhz1HycADO6Unr+AUo27AKcEB78IsrxIRQqTQeYHY=
+github.com/wangchucheng/hugo-eureka v0.9.0 h1:RrO++3GVvx4Bj6vU5QbqaCuTIBn2ibRJeDuQ0pj3Ffw=
+github.com/wangchucheng/hugo-eureka v0.9.0/go.mod h1:8fuhz1HycADO6Unr+AUo27AKcEB78IsrxIRQqTQeYHY=
