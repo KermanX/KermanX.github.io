@@ -1,6 +1,6 @@
 ---
 title: UCON 项目
-description: UCON是一个Node.js平台下功能强大的终端I/O框架。
+description: UCON是一个组件化文本输出框架。
 toc: false
 authors: []
 tags: []
