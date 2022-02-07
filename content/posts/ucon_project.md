@@ -21,14 +21,13 @@ _UCON_ 是我们新近在做的项目。
 
 ## Roadmap 路线图
 
-> 注：可以向右滚动。滚动条在路线图下方
+> 注：可以向右滚动。滚动条在路线图下方。点击包的名字可以跳转至存储库。
 
 <iframe src="/iframe/ucon-roadmap/index.html" seamless style="width:100%;height:760px"></iframe>
 
 ### Github
 
 https://github.com/UniCoderGroup/ucon
-
 
 ### Gitee
 

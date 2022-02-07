@@ -15,7 +15,7 @@ draft: false
 
 还在开发中，[效果预览](https://unicodergroup.gitee.io/raychess-webapp/)
 
-了解更多：[README.md](https://gitee.com/UniCoderGroup/raychess/blob/master/README.md)
+了解更多：[README.md](https://gitee.com/UniCoderGroup/RayChess/blob/master/README.md)
 
 ## Repository
 
@@ -23,7 +23,8 @@ draft: false
 
 ### Gitee
 
-<script src='https://gitee.com/UniCoderGroup/raychess/widget_preview' async defer></script>
+<script src='https://gitee.com/UniCoderGroup/RayChess/widget_preview' async defer></script>
+
 <div id="osc-gitee-widget-tag"></div>
 <style>
 .osc_pro_color {color: #4183c4 !important;}
@@ -37,4 +38,3 @@ draft: false
 ### Github
 
 [UniCoderGroup/RayChess](https://github.com/UniCoderGroup/RayChess)
-
