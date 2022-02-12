@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/iframe/ucon-roadmap/static/css/main.e37292e3.chunk.css",
-    "main.js": "/iframe/ucon-roadmap/static/js/main.c70c11fd.chunk.js",
-    "main.js.map": "/iframe/ucon-roadmap/static/js/main.c70c11fd.chunk.js.map",
-    "runtime-main.js": "/iframe/ucon-roadmap/static/js/runtime-main.5d7b8fce.js",
-    "runtime-main.js.map": "/iframe/ucon-roadmap/static/js/runtime-main.5d7b8fce.js.map",
-    "static/js/2.629f53ec.chunk.js": "/iframe/ucon-roadmap/static/js/2.629f53ec.chunk.js",
-    "static/js/2.629f53ec.chunk.js.map": "/iframe/ucon-roadmap/static/js/2.629f53ec.chunk.js.map",
+    "main.css": "/iframe/ucon-roadmap/static/css/main.31d6cfe0.css",
+    "main.js": "/iframe/ucon-roadmap/static/js/main.a031312f.js",
+    "static/media/AppOpt.png": "/iframe/ucon-roadmap/static/media/AppOpt.5ea2ef25a4e3c46d540e.png",
+    "static/media/AppCode.png": "/iframe/ucon-roadmap/static/media/AppCode.ec029392bdb583a6228f.png",
+    "static/media/utty-node.svg": "/iframe/ucon-roadmap/static/media/utty-node.e444618be4fc280e74f2baa51652236f.svg",
+    "static/media/utty-react.svg": "/iframe/ucon-roadmap/static/media/utty-react.f9cb4f8218224ae6232d7518204b6f33.svg",
+    "static/media/utty-vue.svg": "/iframe/ucon-roadmap/static/media/utty-vue.1b84b99f655629a4222b23460e7aafb9.svg",
+    "static/media/utty.svg": "/iframe/ucon-roadmap/static/media/utty.309ea9e5a2d53da9eadfdfb571d2e1e4.svg",
+    "static/media/ucon.svg": "/iframe/ucon-roadmap/static/media/ucon.ced2c5e1174cb9f80134f67e1ec42c36.svg",
     "index.html": "/iframe/ucon-roadmap/index.html",
-    "static/css/main.e37292e3.chunk.css.map": "/iframe/ucon-roadmap/static/css/main.e37292e3.chunk.css.map",
-    "static/js/2.629f53ec.chunk.js.LICENSE.txt": "/iframe/ucon-roadmap/static/js/2.629f53ec.chunk.js.LICENSE.txt",
-    "static/media/AppCode.ec029392.png": "/iframe/ucon-roadmap/static/media/AppCode.ec029392.png",
-    "static/media/AppOpt.5ea2ef25.png": "/iframe/ucon-roadmap/static/media/AppOpt.5ea2ef25.png"
+    "main.a031312f.js.map": "/iframe/ucon-roadmap/static/js/main.a031312f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d7b8fce.js",
-    "static/js/2.629f53ec.chunk.js",
-    "static/css/main.e37292e3.chunk.css",
-    "static/js/main.c70c11fd.chunk.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.a031312f.js"
   ]
 }
