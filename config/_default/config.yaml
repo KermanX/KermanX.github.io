@@ -1,5 +1,5 @@
 baseURL: https://KermanX.github.io/
-title: _Kerman's website
+title: _Kerman's Website
 
 # Comment when installing using Hugo Modules
 # theme: eureka
@@ -10,7 +10,7 @@ paginate: 3
 copyright: >
   &copy; 2021 _Kerman
 enableEmoji: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 75
 
 defaultContentLanguage: zh
