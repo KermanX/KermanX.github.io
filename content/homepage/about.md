@@ -47,7 +47,7 @@ src: url('/fonts/lxgw-wenkai-lite/LXGWWenKaiLite-Bold.ttf'),
  url('/fonts/lxgw-wenkai-lite/LXGWWenKaiMonoLite-Regular.ttf');
 }
 *{
-  font-family:lxgw
+  font-family:lxgw,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
 }
 </style>
 
@@ -81,4 +81,4 @@ src: url('/fonts/lxgw-wenkai-lite/LXGWWenKaiLite-Bold.ttf'),
 
 <br/>
 
-> _𝙺𝚎𝚛𝚖𝚊𝚗 is a *async*.
+> _𝙺𝚎𝚛𝚖𝚊𝚗 is *async*.
