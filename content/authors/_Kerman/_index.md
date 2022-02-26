@@ -1,7 +1,7 @@
 ---
 title: _Kerman
 avatar: images/icon.png
-bio: _Kerman is a Kerman
+bio: _Kerman is async.
 organization:
   name: UniCoder Group
   url: https://UniCoderGroup.github.io

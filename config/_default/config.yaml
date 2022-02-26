@@ -8,7 +8,7 @@ theme: github.com/wangchucheng/hugo-eureka
 
 paginate: 3
 copyright: >
-  &copy; 2021 _Kerman
+  &copy; 2022 _Kerman
 enableEmoji: true
 enableGitInfo: true
 summaryLength: 75
