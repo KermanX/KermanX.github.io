@@ -1,5 +1,5 @@
 ---
-title: Focus System
+title: '[项目] Focus System'
 description:
 toc: true
 authors: []
