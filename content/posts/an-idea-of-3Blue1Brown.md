@@ -1,6 +1,6 @@
 ---
 title: '[分享] 3Blue1Brown的一段话'
-description:
+description: 3b1b在讲汉明码的结尾处有一段话，剪辑于此。
 toc: true
 authors: []
 tags: []
