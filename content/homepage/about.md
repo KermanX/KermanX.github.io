@@ -35,21 +35,6 @@ widget:
     # Options: fixed, local, scroll.
     attachment: 
 ---
-<style>
-@font-face
-{
-font-family: lxgw;
-src: url('/fonts/lxgw-wenkai-lite/LXGWWenKaiLite-Bold.ttf'),
- url('/fonts/lxgw-wenkai-lite/LXGWWenKaiLite-Light.ttf'),
- url('/fonts/lxgw-wenkai-lite/LXGWWenKaiLite-Regular.ttf'),
- url('/fonts/lxgw-wenkai-lite/LXGWWenKaiMonoLite-Bold.ttf'),
- url('/fonts/lxgw-wenkai-lite/LXGWWenKaiMonoLite-Light.ttf'),
- url('/fonts/lxgw-wenkai-lite/LXGWWenKaiMonoLite-Regular.ttf');
-}
-*{
-  font-family:lxgw,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
-}
-</style>
 
 ## 简介
 
