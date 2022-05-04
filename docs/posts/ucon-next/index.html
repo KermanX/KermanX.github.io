@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width">
 
 
-<title>[项目] Focus System | _Kerman&#39;s Website</title>
+<title>UCON: Next Generation | _Kerman&#39;s Website</title>
 
 <meta name="generator" content="Hugo Eureka 0.9.0" />
 <link rel="stylesheet" href="https://KermanX.github.io/css/eureka.min.css">
@@ -64,7 +64,7 @@ body {
 <link rel="apple-touch-icon" sizes="180x180" href="https://KermanX.github.io/images/icon_hu01b615aae6898dd01aed83faffc01144_495828_180x180_fill_box_center_2.png">
 
 <meta name="description"
-  content="最近开发了一个焦点控制系统，适用于用上下左右按键控制输入位置的平台。 以下是预览（上下左右按钮模拟控制按键）：">
+  content="下一代ucon的构想。">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,8 +76,8 @@ body {
       "item":"https://KermanX.github.io/posts/"},{
       "@type": "ListItem",
       "position": 2 ,
-      "name":"[项目] Focus System",
-      "item":"https://KermanX.github.io/posts/focus-system/"}]
+      "name":"UCON: Next Generation",
+      "item":"https://KermanX.github.io/posts/ucon-next/"}]
 }
 </script>
 
@@ -89,11 +89,11 @@ body {
     "@type": "Article",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://KermanX.github.io/posts/focus-system/"
+        "@id": "https://KermanX.github.io/posts/ucon-next/"
     },
-    "headline": "[项目] Focus System | _Kerman\u0027s Website","datePublished": "2022-03-12T19:48:38+08:00",
-    "dateModified": "2022-04-16T20:26:34+08:00",
-    "wordCount":  54 ,
+    "headline": "UCON: Next Generation | _Kerman\u0027s Website","datePublished": "2022-05-04T09:54:24+08:00",
+    "dateModified": "2022-05-04T09:54:24+08:00",
+    "wordCount":  511 ,
     "publisher": {
         "@type": "Person",
         "name": "_Kerman",
@@ -102,22 +102,20 @@ body {
             "url": "https://KermanX.github.io/images/icon.png"
         }
         },
-    "description": "最近开发了一个焦点控制系统，适用于用上下左右按键控制输入位置的平台。 以下是预览（上下左右按钮模拟控制按键）："
+    "description": "下一代ucon的构想。"
 }
-</script><meta property="og:title" content="[项目] Focus System | _Kerman&#39;s Website" />
+</script><meta property="og:title" content="UCON: Next Generation | _Kerman&#39;s Website" />
 <meta property="og:type" content="article" />
 
 
 <meta property="og:image" content="https://KermanX.github.io/images/icon.png">
 
 
-<meta property="og:url" content="https://KermanX.github.io/posts/focus-system/" />
+<meta property="og:url" content="https://KermanX.github.io/posts/ucon-next/" />
 
 
 
-
-<meta property="og:description" content="最近开发了一个焦点控制系统，适用于用上下左右按键控制输入位置的平台。 以下是预览（上下左右按钮模拟控制按键）：" />
-
+<meta property="og:description" content="下一代ucon的构想。" />
 
 
 
@@ -133,10 +131,10 @@ body {
 
 
 
-<meta property="article:published_time" content="2022-03-12T19:48:38&#43;08:00" />
+<meta property="article:published_time" content="2022-05-04T09:54:24&#43;08:00" />
 
 
-<meta property="article:modified_time" content="2022-04-16T20:26:34&#43;08:00" />
+<meta property="article:modified_time" content="2022-05-04T09:54:24&#43;08:00" />
 
 
 
@@ -219,15 +217,15 @@ body {
 <div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
     <div
         class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
-        <h1 class="font-bold text-3xl text-primary-text">[项目] Focus System</h1>
+        <h1 class="font-bold text-3xl text-primary-text">UCON: Next Generation</h1>
         <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
     <div class="me-6 my-2">
         <i class="fas fa-calendar me-1"></i>
-        <span>2022-03-12</span>
+        <span>2022-05-04</span>
     </div>
     <div class="me-6 my-2">
         <i class="fas fa-clock me-1"></i>
-        <span>1分钟阅读时长</span>
+        <span>2分钟阅读时长</span>
     </div>
     
     
@@ -239,14 +237,24 @@ body {
         
 
         <div class="content">
-            <p>最近开发了一个焦点控制系统，适用于用上下左右按键控制输入位置的平台。</p>
-<p>以下是预览（上下左右按钮模拟控制按键）：</p>
-<iframe src="https://codesandbox.io/embed/focus-system-dt3kkj?fontsize=14&hidenavigation=1&theme=light"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="focus-system"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+            <p>这几个月越发觉得之前似乎非常完美的ucon框架上有很多局限性。比如在开发<code>Switcher</code>、<code>Composition</code>时发现都需要实现<code>FakeCon</code>和<code>FakeLine</code>之类的，代码冗余，并且一些地方“颠覆”了响应性的设计初衷。</p>
+<p>这些局限性主要是由于ucon的定位从一个文本输出框架变成了一个真正的UI框架，跨平台，不依赖css布局（也就是说从logger+enquirer的这一层变成react.js这一层，甚至是qt这一层）</p>
+<p>因此花了大功夫设计了新的框架结构。</p>
+<p>其中最大的改变是将component分成了units，units互相配合。</p>
+<p>比如OutputUnit输出时输出大小，提交给PositionUnit计算位置，再提交给InputUnit计算焦点位置，从而获取输入。</p>
+<blockquote>
+<p>下图是用OneNote做的，事件较早，略落后于实际开发情况。</p>
+<p>比如实际上已经没有3种components了，每一层都是component，只是具体实现略有不同。</p>
+</blockquote>
+<p><img src="/media/ucon-next.png" alt="ucon-next"></p>
+<p>开发难度挺大的。主要有如下几点：</p>
+<ul>
+<li>输出时的位置计算，要参照浏览器布局系统的实现</li>
+<li>分割平台通用和需要各平台分别实现的部分</li>
+</ul>
+<p>另：ucon必须坚持对文本终端的支持！</p>
+<p>开发做在名为next的branch里。<a href="https://github.com/UniCoderGroup/ucon/tree/next">见Github</a>。</p>
+
         </div>
         
         
@@ -260,14 +268,11 @@ body {
 <div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
     <div>
         
-        <span class="block font-bold">上一页</span>
-        <a href="https://KermanX.github.io/posts/an-idea-of-3blue1brown/" class="block">[分享] 3Blue1Brown的一段话</a>
-        
     </div>
     <div class="md:text-right mt-4 md:mt-0">
         
         <span class="block font-bold">下一页</span>
-        <a href="https://KermanX.github.io/posts/mos6502/" class="block"> [分享] 一小时讲完45年前的爆款CPU-MOS 6502的逆向工程 </a>
+        <a href="https://KermanX.github.io/posts/ucon-project/" class="block">UCON 项目</a>
         
     </div>
 </div>
