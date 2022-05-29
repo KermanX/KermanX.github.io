@@ -8,7 +8,16 @@
     <language>zh</language>
     <copyright>&amp;copy; 2022 _Kerman
 </copyright>
-    <lastBuildDate>Wed, 04 May 2022 09:54:24 +0800</lastBuildDate><atom:link href="https://KermanX.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 15:32:20 +0800</lastBuildDate><atom:link href="https://KermanX.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UCON: Layout System</title>
+      <link>https://KermanX.github.io/posts/ucon-layout-system/</link>
+      <pubDate>Sun, 29 May 2022 15:32:20 +0800</pubDate>
+      
+      <guid>https://KermanX.github.io/posts/ucon-layout-system/</guid>
+      <description>写一点上上周想到的。直接来到正题 失败的尝试 当时在为ucon想一个布局的方法，这个方法对于UCON呢，就相当于CSS对于网页。 但是我们不能用CSS，因为</description>
+    </item>
+    
     <item>
       <title>UCON: Next Generation</title>
       <link>https://KermanX.github.io/posts/ucon-next/</link>
