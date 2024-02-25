@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>_Kerman's Website</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="avatar.ico" />
+    <style>
+      body {
+        padding: 0 20px;
+        font-size: xx-large;
+        line-height: 1.4em;
+      }
+    </style>
+    <script>
+      onload = () => document.getElementById('content').innerText = "---\r\ntitle: \"UCON: Next Generation\"\r\ndescription: 下一代ucon的构想。\r\n---\r\n\r\n这几个月越发觉得之前似乎非常完美的ucon框架上有很多局限性。比如在开发`Switcher`、`Composition`时发现都需要实现`FakeCon`和`FakeLine`之类的，代码冗余，并且一些地方“颠覆”了响应性的设计初衷。\r\n\r\n这些局限性主要是由于ucon的定位从一个文本输出框架变成了一个真正的UI框架，跨平台，不依赖css布局（也就是说从logger+enquirer的这一层变成react.js这一层，甚至是qt这一层）\r\n\r\n因此花了大功夫设计了新的框架结构。\r\n\r\n其中最大的改变是将component分成了units，units互相配合。\r\n\r\n比如OutputUnit输出时输出大小，提交给PositionUnit计算位置，再提交给InputUnit计算焦点位置，从而获取输入。\r\n\r\n> 下图是用OneNote做的，事件较早，略落后于实际开发情况。\r\n>\r\n> 比如实际上已经没有3种components了，每一层都是component，只是具体实现略有不同。\r\n\r\n![ucon-next](/media/ucon-next.png)\r\n\r\n开发难度挺大的。主要有如下几点：\r\n\r\n - 输出时的位置计算，要参照浏览器布局系统的实现\r\n - 分割平台通用和需要各平台分别实现的部分\r\n\r\n另：ucon必须坚持对文本终端的支持！\r\n\r\n开发做在名为next的branch里。[见Github](https://github.com/UniCoderGroup/ucon/tree/next)。\n## 目录\n\n- https://kermanx.github.io/index.html\n- https://kermanx.github.io/homepage/about.html\n- https://kermanx.github.io/posts/an-idea-of-3Blue1Brown.html\n- https://kermanx.github.io/posts/focus-system.html\n- https://kermanx.github.io/posts/MOS6502.html\n- https://kermanx.github.io/posts/raychess.html\n- https://kermanx.github.io/posts/ucon-layout-system.html\n- https://kermanx.github.io/posts/ucon-next.html\n- https://kermanx.github.io/posts/ucon-project.html\n";
+    </script>
+  </head>
+  <body>
+    <pre id="content"></pre>
+  </body>
+</html>

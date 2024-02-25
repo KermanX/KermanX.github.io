@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>_Kerman's Website</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="avatar.ico" />
+    <style>
+      body {
+        padding: 0 20px;
+        font-size: xx-large;
+        line-height: 1.4em;
+      }
+    </style>
+    <script>
+      onload = () => document.getElementById('content').innerText = "---\r\ntitle: 'UCON: Layout System'\r\n---\r\n\r\n写一点上上周想到的。[<botton style=\"margin-left:30px;border:1px black solid;\">直接来到正题</botton>](#新的思路)\r\n\r\n## 失败的尝试\r\n\r\n当时在为ucon想一个布局的方法，这个方法对于UCON呢，就相当于CSS对于网页。\r\n\r\n但是我们不能用CSS，因为：\r\n\r\n- 内容庞大，我无法实现，也就意味着不能满足非浏览器的运行环境\r\n\r\n- 没意思，重复造轮子的行为\r\n\r\nCSS是控制所有样式的，而我这个标题，Layout System，就是处理布局的。\r\n\r\n所以当时初步设计了一个布局系统，总体上模式有点像CSS的简化版，无非是`block`,`inline`之类的。\r\n\r\n但是突出`float`属性的作用，以及宽、高可以控制范围。\r\n\r\n然后试着写了写实现代码，直接就失败了，因为逻辑矛盾太多，一不小心就要进入死循环。要破除，只能加很多规则去约束他，那还不如本来的CSS的布局系统。\r\n\r\n那就没意思了。\r\n\r\n## 新的思路\r\n\r\n一些软件里（尤其是制图、UI设计之类的），会有一个对齐功能。\r\n\r\n但是这是对齐，我计划设计一个模式，一切东西都用某种基准线来定位，姑且叫这种基准线stick。\r\n\r\n>  **举个例子**：\r\n> \r\n> 一个按钮，坐标(10px,10px)，宽40px，高20px。\r\n> \r\n> **CSS**:\r\n> \r\n> ```css\r\n> button{\r\n>     position:absolute;\r\n>     left:10px;\r\n>     top:10px;\r\n>     width:40px;\r\n>     height:20px;\r\n> }\r\n> ```\r\n> \r\n> **UCON**：\r\n> \r\n> - 定义v-stick（vertical stick），绝对（或者说相对于app），10px，就叫left\r\n> \r\n> - 定义v-stick，left+40px，叫right\r\n> \r\n> - 定义h-stick（horizontal stick），绝对，10px，叫top\r\n> \r\n> - 定义h-stick，top+20px，叫bottom\r\n> \r\n> - button的位置：{left,right,top,bottom}\r\n\r\n看上去，UCON的这套麻烦一点\r\n\r\n其实不然。这是伪代码，实际实现起来会有如下功能：\r\n\r\n- 名字不必自己给，有一定的算法生成\r\n\r\n- 有快速生成的工具函数，只要用，就可以写得和CSS的一样，比如：\r\n  \r\n  - 矩形\r\n  \r\n  - 取中（心）点\r\n  \r\n  - 根据点生成h&v-stick\r\n  \r\n  - ...\r\n\r\n这是开发者方面的，对于运行时，也有好处：\r\n\r\n- 直接生成的依赖树，更新视图时效率极高\r\n\r\n- 计算量小，不用像CSS那样要考虑很多东西\r\n\r\n关键的技术难题，应该还是语法糖和命名算法。\r\n\r\n## 另：这不是新的思路\r\n\r\n1. 好像初一做ucon的前身的前身的前身的buttons(in cpp)时，好像就有过类似想法。可是当时太差了，搞不清楚（说不定我现在也搞不清楚），反正忘掉了啊。。。\r\n\r\n2. CSS这套真的强，在这个问题下，要不出逻辑漏洞真不简单。\r\n\r\n\r\n\r\n&emsp;&emsp;此致\r\n\r\n敬礼！\n## 目录\n\n- https://kermanx.github.io/index.html\n- https://kermanx.github.io/homepage/about.html\n- https://kermanx.github.io/posts/an-idea-of-3Blue1Brown.html\n- https://kermanx.github.io/posts/focus-system.html\n- https://kermanx.github.io/posts/MOS6502.html\n- https://kermanx.github.io/posts/raychess.html\n- https://kermanx.github.io/posts/ucon-layout-system.html\n- https://kermanx.github.io/posts/ucon-next.html\n- https://kermanx.github.io/posts/ucon-project.html\n";
+    </script>
+  </head>
+  <body>
+    <pre id="content"></pre>
+  </body>
+</html>
