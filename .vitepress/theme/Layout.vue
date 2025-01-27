@@ -1,5 +1,6 @@
-<script setup>
+<script setup lang="ts">
 import DefaultTheme from 'vitepress/theme'
+// @ts-expect-error
 import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar'
 const { Layout } = DefaultTheme
 
@@ -7,16 +8,41 @@ const {
   hasSidebar,
   isOpen,
   // open: openSidebar,
+  // close: closeSidebar,
 } = useSidebar()
 
 function openSidebar() {
-  const el = document.querySelector('div.VPLocalNav.has-sidebar.empty button');
+  const el = document.querySelector('div.VPLocalNav.has-sidebar.empty button') as any;
   el.click();
 }
+
+function closeSidebar() {
+  const el = document.querySelector('.VPBackdrop.backdrop') as any;
+  el.click();
+}
+
+const touchStart = { x: 0, y: 0 };
+
+const onTouchStart = (e: TouchEvent): void => {
+  touchStart.x = e.changedTouches[0].clientX;
+  touchStart.y = e.changedTouches[0].clientY;
+};
+
+const onTouchEnd = (e: TouchEvent): void => {
+  const dx = e.changedTouches[0].clientX - touchStart.x;
+  const dy = e.changedTouches[0].clientY - touchStart.y;
+  if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+    if (dx > 0 && touchStart.x <= 80) {
+      // openSidebar();
+    } else {
+      closeSidebar();
+    }
+  }
+};
 </script>
 
 <template>
-  <Layout>
+  <Layout @touchstart="onTouchStart" @touchend="onTouchEnd">
     <template #nav-bar-title-before>
       <button
         v-if="hasSidebar"
