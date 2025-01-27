@@ -1,0 +1,26 @@
+:root {  
+  --vp-font-family-base: League Spartan Variable, Noto Sans SC, sans-serif;
+  --vp-c-brand-1:rgb(188, 207, 222);
+  --vp-c-brand-2:rgb(143, 168, 187);
+  --vp-c-brand-3:rgb(112, 146, 173);
+  --vp-nav-height: 40px;
+  --vp-c-gutter: #2E2E32;
+}
+
+.VPNavBarTitle {
+  margin-top: 4px;
+}
+
+.VPNavBarExtra, .VPNavBarHamburger, .VPLocalNav, .VPSkipLink {
+  display: none !important;
+}
+
+@media (min-width: 960px) {
+  .VPContent {
+    padding-top: 0 !important;
+  }
+
+  div.divider > div.divider-line {
+    display: none !important;
+  }
+}
