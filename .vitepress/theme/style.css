@@ -1,26 +1,67 @@
-:root {  
+:root {
   --vp-font-family-base: League Spartan Variable, Noto Sans SC, sans-serif;
-  --vp-c-brand-1:rgb(188, 207, 222);
-  --vp-c-brand-2:rgb(143, 168, 187);
-  --vp-c-brand-3:rgb(112, 146, 173);
+  --vp-c-brand-1: rgb(188, 207, 222);
+  --vp-c-brand-2: rgb(143, 168, 187);
+  --vp-c-brand-3: rgb(112, 146, 173);
   --vp-nav-height: 40px;
-  --vp-c-gutter: #2E2E32;
+  --vp-c-gutter: #2e2e32;
+  --vp-nav-bg-color: transparent;
 }
 
 .VPNavBarTitle {
   padding-top: 4px;
 }
 
-.VPNavBarExtra, .VPNavBarHamburger, .VPLocalNav, .VPSkipLink {
+.VPNavBarExtra,
+.VPNavBarHamburger,
+.VPLocalNav,
+.VPSkipLink {
   display: none !important;
 }
 
 @media (min-width: 960px) {
+  :root {
+    --vp-nav-height: 64px;
+  }
+
   .VPContent {
     padding-top: 0 !important;
   }
 
   div.divider > div.divider-line {
     display: none !important;
+  }
+}
+
+#VPContent main.main {
+  min-height: calc(100vh - var(--vp-nav-height) - 48px - 64px - 32px - 90px);
+}
+
+#VPContent > div > div > div.content {
+  padding-bottom: 32px;
+}
+
+:root {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+@supports selector(::-webkit-scrollbar-thumb) {
+  :root {
+    scrollbar-width: unset;
+  }
+
+  :root::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  :root::-webkit-scrollbar-track {
+    background: #2e2e32;
+  }
+
+  :root::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+    border: 2px solid #2e2e32;
   }
 }

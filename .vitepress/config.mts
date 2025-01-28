@@ -1,25 +1,39 @@
-import { defineConfig } from 'vitepress'
-import { fileURLToPath } from 'url'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "_Kerman",
-  description: "-",
+  description: "",
   themeConfig: {
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'Examples', link: '/markdown-examples' }
-    // ],
-
+    siteTitle: "_Kerman",
     sidebar: [
       {
         text: 'Home',
         link: '/',
+      },
+      {
+        text: 'Notes',
+        items: [
+          {
+            text: 'Static Program Analysis',
+            link: '/notes/spa'
+          }
+        ]
       }
     ],
   },
+  markdown: {
+    theme: 'dark-plus',
+    math: true,
+  },
   appearance: 'force-dark',
   head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/favicon.ico',
+      }
+    ],
     [
       'link',
       {
