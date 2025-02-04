@@ -1,4 +1,6 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
+import fg from "fast-glob";
+import { basename } from "path";
 
 export default withMermaid({
   title: "_Kerman",
@@ -18,6 +20,13 @@ export default withMermaid({
             link: '/notes/spa'
           }
         ]
+      },
+      {
+        text: 'Weekly',
+        items: fg.sync("weekly/*.md").map((path) => {
+          const name = basename(path, ".md");
+          return { text: name, link: `/weekly/${name}` };
+        }),
       }
     ],
   },
