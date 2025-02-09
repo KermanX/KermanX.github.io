@@ -1,4 +1,5 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
+import Font from "vite-plugin-font";
 import fg from "fast-glob";
 import { basename } from "path";
 
@@ -9,55 +10,60 @@ export default withMermaid({
     siteTitle: "_Kerman",
     sidebar: [
       {
-        text: 'Home',
-        link: '/',
+        text: "Home",
+        link: "/",
       },
       {
-        text: 'Notes',
+        text: "Notes",
         items: [
           {
-            text: 'Static Program Analysis',
-            link: '/notes/spa'
-          }
-        ]
+            text: "Static Program Analysis",
+            link: "/notes/spa",
+          },
+        ],
       },
       {
-        text: 'Weekly',
+        text: "Weekly",
         items: fg.sync("weekly/*.md").map((path) => {
           const name = basename(path, ".md");
           return { text: name, link: `/weekly/${name}` };
         }),
-      }
+      },
+    ],
+  },
+  vite: {
+    plugins: [
+      Font.vite({
+        scanFiles: [
+          ".vitepress/config.mts",
+          ".vitepress/theme/**/*",
+          "notes/**/*",
+          "weekly/**/*",
+          "index.md",
+        ],
+      }),
     ],
   },
   markdown: {
-    theme: 'dark-plus',
+    theme: "dark-plus",
     math: true,
   },
-  appearance: 'force-dark',
+  appearance: "force-dark",
   head: [
     [
-      'link',
+      "link",
       {
-        rel: 'icon',
-        href: '/favicon.ico',
-      }
+        rel: "icon",
+        href: "/favicon.ico",
+      },
     ],
     [
-      'link',
+      "link",
       {
-        rel: 'stylesheet',
-        type: 'text/css',
-        href: 'https://cdn.jsdelivr.net/npm/@fontsource-variable/league-spartan@5.1.1/index.min.css',
-      }
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5.1.1/index.min.css",
+      },
     ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        type: 'text/css',
-        href: 'https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5.1.1/index.min.css',
-      }
-    ]
-  ]
-})
+  ],
+});

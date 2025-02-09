@@ -2,6 +2,9 @@
 import DefaultTheme from 'vitepress/theme'
 // @ts-expect-error
 import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar'
+import './fonts/NotoSansSC-VariableFont_wght.ttf?subsets'
+import './fonts/MapleMono-CN-Regular.ttf?subsets'
+
 const { Layout } = DefaultTheme
 
 const {
