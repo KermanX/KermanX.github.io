@@ -251,4 +251,22 @@ $$
 
 ## Control Flow Analysis
 
-> TODO
+### Closure analysis
+
+- $\lambda X \in [[\lambda X.E]]$
+- `E1 E2`: $\lambda X \in [[E_1]] \implies ([[E_2]] \subseteq [[X]] \land [[E]] \subseteq [[E_1 E_2]])$ for every $\lambda X.F$
+
+### First-class Functions
+
+## Pointer Analysis
+
+- Allocation-site abstraction
+
+- Interprocedural pointer analysis
+- Null pointer analysis
+- Flow-sensitive pointer analysis
+- Escape analysis
+
+## Abstract Interpretation
+
+TODO
